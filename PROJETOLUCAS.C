@@ -36,20 +36,17 @@ typedef struct {
     float total;
 } Venda;
 
-// Variáveis globais
 Cliente clientes[MAX_CLIENTES];
 Produto produtos[MAX_PRODUTOS];
 Venda vendas[MAX_VENDAS];
 
 int qtdClientes = 0, qtdProdutos = 0, qtdVendas = 0;
 
-// Função para limpar buffer de entrada
 void limparBuffer() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 }
 
-// Funções de cadastro e listagem
 
 void cadastrarCliente() {
     Cliente c;
