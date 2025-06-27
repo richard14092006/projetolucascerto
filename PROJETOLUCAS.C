@@ -7,7 +7,6 @@
 #define MAX_ITENS 50
 #define MAX_VENDAS 100
 
-// Structs
 typedef struct {
     int id;
     char nome[50];
